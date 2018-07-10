@@ -1,0 +1,19 @@
+version: '2'
+services:
+    mongodb:
+        image: 'mongo'
+    bios:
+        image: 'lissonpsantos2/ubuntu-phps'
+        ports:
+            - '8080:80'
+            - '8081:3001'
+        volumes:
+            - './:/home/project-folder/'
+        depends_on:
+            - mongodb
+        stdin_open: true
+        tty: true
+volumes:
+    bios_data:
+        driver: local
+
