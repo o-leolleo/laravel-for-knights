@@ -4,7 +4,7 @@ namespace App;
 
 use Moloquent;
 
-class Knight extends Moloquent
+class KnightType extends Moloquent
 {
     //
 }
