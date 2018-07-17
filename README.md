@@ -1,4 +1,4 @@
-# laravel-for-ninjas
+# Laravel for Knights!
 
 ## SETUP 
 
