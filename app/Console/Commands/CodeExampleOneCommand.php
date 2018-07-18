@@ -4,9 +4,9 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 
-class CodeExamplesCommand extends Command
+class CodeExampleOneCommand extends Command
 {
-    protected $signature = 'example:code-1';
+    protected $signature = 'example:code-intro';
 
     protected $description = 'Somente para execução dos códigos de exemplo';
 
