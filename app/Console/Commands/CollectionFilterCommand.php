@@ -8,7 +8,7 @@ class CollectionFilterCommand extends Command
 {
     protected $signature = 'example:collection-filter';
 
-    protected $description = 'Command description';
+    protected $description = 'Filtra elementos';
 
     public function __construct()
     {
@@ -29,5 +29,4 @@ class CollectionFilterCommand extends Command
 			$this->info($name);
 		});
 	}
-
 }

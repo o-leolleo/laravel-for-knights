@@ -8,7 +8,7 @@ class CollectionEachCommand extends Command
 {
     protected $signature = 'example:collection-each';
 
-    protected $description = 'Command description';
+    protected $description = 'Itera pelos elementos da collection';
 
     public function __construct()
     {
