@@ -6,7 +6,7 @@ services:
         image: 'lissonpsantos2/ubuntu-phps'
         ports:
             - '8080:80'
-            - '8081:3001'
+            - '8082:3001'
         volumes:
             - './:/home/project-folder/'
         depends_on:
