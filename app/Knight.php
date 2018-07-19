@@ -17,4 +17,14 @@ class Knight extends Moloquent
 	public function knights() {
 		return $this->hasMany('App\Knight', 'god_id');
 	}
+
+	public function scopeAtena($query)
+	{
+		return $query->where('name', 'Atena');
+	}
+
+	public function scopeWithName($query, $name) 
+	{
+		return $query->where('name', $name);
+	}
 }
