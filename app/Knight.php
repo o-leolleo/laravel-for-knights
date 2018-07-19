@@ -3,9 +3,18 @@
 namespace App;
 
 use Moloquent;
+use App\Scopes\GodScopeV1;
 
 class Knight extends Moloquent
 {
+	protected static function boot()
+	{
+		parent::boot();
+
+
+		static::addGlobalScope(new GodScopeV1);
+	}
+
 	public function type() {
 		return $this->belongsTo('App\KnightType', 'knight_type_id');
 	}
@@ -23,7 +32,7 @@ class Knight extends Moloquent
 		return $query->where('name', 'Atena');
 	}
 
-	public function scopeWithName($query, $name) 
+	public function scopeWithName($query, $name)
 	{
 		return $query->where('name', $name);
 	}
