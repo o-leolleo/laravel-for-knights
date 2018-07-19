@@ -22,21 +22,21 @@ class CollectionMapCommand extends Command
 				'name' => 'Shion',
 				'type' => 'ouro',
 				'constellation' => 'Capricórnio',
-				'deus(a)' => 'Atenas',
+				'deus(a)' => 'Atena',
 			],
 
 			[
 				'name' => 'Shura',
 				'type' => 'ouro',
 				'constellation' => 'Áries',
-				'deus(a)' => 'Atenas',
+				'deus(a)' => 'Atena',
 			],
 
 			[
 				'name' => 'Afrodite',
 				'type' => 'ouro',
 				'constellation' => 'Peixes',
-				'deus(a)' => 'Atenas',
+				'deus(a)' => 'Atena',
 			],
 		]);
 
