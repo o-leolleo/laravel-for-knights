@@ -13,5 +13,5 @@ $ docker-compose up
 execute o bash, no contêiner do servidor web
 
 ```shell-session
-$ docker exec -it laravel-for-ninjas_web_1 bash
+$ docker exec -it laravelforninjas_web_1 bash
 ```
