@@ -13,7 +13,7 @@ execute o
 execute o bash, no contêiner do servidor web
 
 ```shell-session
-[pasta do projeto]$ docker exec -it laravelforninjas_web_1 bash
+[pasta do projeto]$ docker exec -it laravel-for-ninjas_web_1 bash
 ```
 
 Dentro do contêiner, abra a pasta /home/projetct-folder e execute os passos abaixo
