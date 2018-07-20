@@ -29,6 +29,6 @@ Dentro do contêiner, abra a pasta /home/projetct-folder e execute os passos aba
 Dentro da pasta do projeto, é só executar os comando abaixo
 
 ```shell-session
-[pasta do conteiner]$ docker-compose start
-[pasta do conteiner]$ docker exec -it laravelforninjas_web_1 bash
+[pasta do projeto]$ docker-compose start
+[pasta do projeto]$ docker exec -it laravelforninjas_web_1 bash
 ```
