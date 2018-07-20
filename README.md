@@ -15,3 +15,20 @@ execute o bash, no contêiner do servidor web
 ```shell-session
 $ docker exec -it laravelforninjas_web_1 bash
 ```
+
+Dentro do contêiner, abra a pasta /home/projetct-folder e execute os passos abaixo
+
+```shell-session
+[dentro-do-conteiner]# selectphp 7.1
+[dentro-do-conteiner]# composer update
+[dentro-do-conteiner]# apachelinker /home/project-folder/public
+```
+
+## Executando o projeto novamente
+
+Dentro da pasta do projeto, é só executar os comando abaixo
+
+```shell-session
+$ docker-compose start
+$ docker exec -it laravelforninjas_web_1 bash
+```
