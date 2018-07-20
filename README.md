@@ -10,6 +10,12 @@ execute o
 [pasta to projeto]$ docker-compose up
 ```
 
+alternativamente, rodando em *background*
+
+```shel-session
+[pasta to projeto]$ docker-compose up -d
+```
+
 execute o bash, no contêiner do servidor web
 
 ```shell-session
@@ -31,7 +37,7 @@ Dentro do contêiner, abra a pasta /home/projetct-folder e execute os passos aba
 executando, no conteiner, em `/home/project-foler` o comando abaixo
 
 ```shell-session
-[dentro-do-conteinr]# php artisan populate:knights
+[dentro-do-conteiner]# php artisan populate:knights
 ```
 
 ## Executando o projeto novamente
