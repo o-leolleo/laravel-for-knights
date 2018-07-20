@@ -7,13 +7,13 @@ caso não possua, instale o `docker-compose`
 execute o
 
 ```shel-session
-$ docker-compose up
+[pasta to projeto]$ docker-compose up
 ```
 
 execute o bash, no contêiner do servidor web
 
 ```shell-session
-$ docker exec -it laravelforninjas_web_1 bash
+[pasta do projeto]$ docker exec -it laravelforninjas_web_1 bash
 ```
 
 Dentro do contêiner, abra a pasta /home/projetct-folder e execute os passos abaixo
@@ -29,6 +29,6 @@ Dentro do contêiner, abra a pasta /home/projetct-folder e execute os passos aba
 Dentro da pasta do projeto, é só executar os comando abaixo
 
 ```shell-session
-$ docker-compose start
-$ docker exec -it laravelforninjas_web_1 bash
+[pasta do conteiner]$ docker-compose start
+[pasta do conteiner]$ docker exec -it laravelforninjas_web_1 bash
 ```
