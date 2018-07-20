@@ -24,6 +24,14 @@ Dentro do contêiner, abra a pasta /home/projetct-folder e execute os passos aba
 [dentro-do-conteiner]# apachelinker /home/project-folder/public
 ```
 
+## Invoque o cosmos e alimente a tabela de cavaleiros
+
+executando, no conteiner, em `/home/project-foler` o comando abaixo
+
+```shell-session
+[dentro-do-conteinr]# php artisan populate:knights
+```
+
 ## Executando o projeto novamente
 
 Dentro da pasta do projeto, é só executar os comando abaixo
