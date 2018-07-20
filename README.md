@@ -22,6 +22,7 @@ Dentro do contêiner, abra a pasta /home/projetct-folder e execute os passos aba
 [dentro-do-conteiner]# selectphp 7.1
 [dentro-do-conteiner]# composer update
 [dentro-do-conteiner]# apachelinker /home/project-folder/public
+[dentro-do-conteiner]# chmod -R www-data:www-data storage
 ```
 
 ## Invoque o cosmos e alimente a tabela de cavaleiros
