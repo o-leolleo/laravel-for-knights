@@ -4,7 +4,7 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 
-class CollectionIsEmptyCommand extends Command
+class CollectionKeyByCommand extends Command
 {
     protected $signature = 'example:collection-key-by';
 
