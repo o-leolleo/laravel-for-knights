@@ -29,7 +29,7 @@ Dentro do contêiner, abra a pasta /home/projetct-folder e execute os passos aba
 [dentro-do-conteiner]# cd /home/project-folder
 [dentro-do-conteiner]# composer update
 [dentro-do-conteiner]# apachelinker /home/project-folder/public
-[dentro-do-conteiner]# chmod -R www-data:www-data storage
+[dentro-do-conteiner]# chown -R www-data:www-data storage
 ```
 
 ## Invoque o cosmos e alimente a tabela de cavaleiros
