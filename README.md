@@ -46,5 +46,5 @@ Dentro da pasta do projeto, é só executar os comando abaixo
 
 ```shell-session
 [pasta do projeto]$ docker-compose start
-[pasta do projeto]$ docker exec -it laravelforninjas_web_1 bash
+[pasta do projeto]$ docker exec -it laravel-for-ninjas_web_1 bash
 ```
