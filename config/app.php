@@ -150,6 +150,7 @@ return [
         /*
          * Package Service Providers...
          */
+		Recca0120\Terminal\TerminalServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -158,8 +159,7 @@ return [
         App\Providers\AuthServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
-
+        App\Providers\RouteServiceProvider::class, 
     ],
 
     /*
