@@ -75,7 +75,7 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://github.com/leolleocomp/laravel-for-ninjas" class="btn btn-primary btn-lg active" role="button">Códigos utilizados</a>
+                    <a href="{{url('/terminal')}}" class="btn btn-primary btn-lg active" role="button">Go to terminal</a>
                 </div>
             </div>
         </div>
